@@ -1,0 +1,3 @@
+class Fermat
+  
+end
