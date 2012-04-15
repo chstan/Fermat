@@ -1,0 +1,16 @@
+	When this gem is ready for production, you'll be able to find it on http://rubygems.org with a search for "Fermat". Once it's there, you can install it from the terminal via "gem install fermat".
+	The name was chosen, though it may yet change, in reference to Pierre de Fermat, a 17th century French lawyer (and "amateur" mathematician) who made many contributions to algebraic number theory: in particular to what would become the theory of finite fields, analytic geometry, and the study of curves of genus 1.
+
+	If you have any contributions to make, you can fork the project, or send me an email at chstan@stanford.edu. Unless there are specific contributions, it is likely that this library will grow merely to meet my own needs. All the same, there are a number of things that I would like to have in this library at some point. In no significant order:
+		
+		- Finite fields
+		- Polynomials over a general field
+		- Fast primality testing
+			- AKS (just for fun)
+			- Miller-Rabin
+		- QR
+			- Legendre and Jacobi symbols*
+		- Cyclotomic polynomials
+		- φ, τ, µ and all the other favorite elementary functions
+		- Complete/Incomplete Gamma function
+		- Sterling Numbers
