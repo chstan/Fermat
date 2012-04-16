@@ -1,5 +1,3 @@
-
-
 module ModularArithmetic
   #A module defining some helpful properties from number theory
   #and modular arithmetic. In particular, this is a dependency

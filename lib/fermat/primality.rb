@@ -1,4 +1,4 @@
-require_relative 'modular_arithmetic.rb'
+require_relative 'modular_arithmetic'
 
 module PrimalityTests
   #Miller Rabin expects an odd integer
