@@ -1,4 +1,5 @@
 require_relative 'modular_arithmetic'
+require 'singleton'
 
 module PrimalityTests
   #Miller Rabin expects an odd integer
@@ -43,7 +44,7 @@ module PrimalityTests
   #all purpose primality test, based on circumstances,
   #this method will call the appropriate background test
   #in reality, this is all the end user ever needs
-  def PrimalityTests.IsPrime? n
+  def PrimalityTests.isPrime? n
     #probabilistic, but good enough for anything
     return MillerRabin n, 10
   end
@@ -62,6 +63,21 @@ end
 
 class Integer
   def isPrime?
-    return PrimalityTests.IsPrime? self
+    return PrimalityTests.isPrime? self
   end
 end
+
+class Prime
+  def next
+    
+  end
+  
+  def prime n
+    
+  end
+  
+  def initialize n = 0
+    
+  end
+end
+

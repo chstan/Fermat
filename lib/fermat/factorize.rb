@@ -1,4 +1,4 @@
-require_relative 'primality'
+require_relative 'prime'
 
 module Factorize
   class Integer

@@ -29,12 +29,25 @@ describe PrimalityTests do
   
   # This is a convention
   # the prime number 7 is associate to -7 via the unit -1
-  # you could just as well say that -7 is not prime, but we will
+  # you could just as well say that -7 is prime, but we will not
   it "should handle negative numbers" do
     -4.isPrime?.should be false
-    -7.isPrime?.should be true
+    -7.isPrime?.should be false
   end
   
   pending "Performance tests"
+end
+
+describe Prime do
+  it "should generate sequential primes" do
+    pending "sequential prime tests"
+  end
   
+  it "should generate the sought after primes" do
+    pending "random seek prime tests"
+  end
+  
+  it "should be a singleton" do
+    pending "make sure you can't make two instances of Prime"
+  end
 end
