@@ -1,0 +1,9 @@
+v0.0.0:
+
+4/16/2012
+	Primality tests
+		Miller-Rabin
+	Fast modular exponentiation
+		Used in the primality tests
+	
+	Specced PrimalityTests and ModularArithmetic
